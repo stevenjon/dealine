@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.home {
+  height: 100%;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 475px;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+}
+.Otbtn {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  max-width: 350px;
+  min-width: 270px;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #FDCF48;
+  padding: 15px 25px ;
+}
+.Otbtn:first-child {
+  margin-top: 0;
+}
+.navBar {
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #FDCF48;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
